@@ -4,17 +4,17 @@
     height: 100vh;
     top: 0;
     left: 0;
-    overflow: hidden; /* Zamezit přetečení částic mimo viewport */
+    overflow: hidden; 
 }
 
 .particle {
     width: 5px;
     height: 5px;
     background-color: white;
-    border-radius: 100%; /* Oprava, aby částice byly kruhové */
+    border-radius: 100%; 
     opacity: 0.1;
     outline: 1px solid rgba(0, 0, 0, 0.3);
-    position: absolute; /* Ujisti se, že částice mají absolutní pozici */
+    position: absolute; 
 }
 
 @keyframes move {
